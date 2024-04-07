@@ -28,7 +28,7 @@ async def helper_private(
         _ = get_string(language)
         keyboard = help_pannel(_, True)
         await update.edit_message_text(
-            _["help_1"].format(SUPPORT_CHAT), reply_markup=keyboard
+            _["help_1"].format(SUPPORT_CHAT, update.from_user.first_name), reply_markup=keyboard
         )
     else:
         try:
@@ -40,7 +40,7 @@ async def helper_private(
         keyboard = help_pannel(_)
         await update.reply_photo(
             photo=START_IMG_URL,
-            caption=_["help_1"].format(SUPPORT_CHAT, message.from_user.first_name),
+            caption=_["help_1"].format(SUPPORT_CHAT, update.from_user.first_name),
             reply_markup=keyboard,
         )
 
@@ -49,7 +49,7 @@ async def helper_private(
 @LanguageStart
 async def help_com_group(client, message: Message, _):
     keyboard = private_help_panel(_)
-    await message.reply_text(_["help_2"].format(config.SUPPORT_CHAT, message.from_user.first_name), reply_markup=InlineKeyboardMarkup(keyboard))
+    await message.reply_text(_["help_2"].format(SUPPORT_CHAT, client.from_user.first_name), reply_markup=InlineKeyboardMarkup(keyboard))
 
 
 @app.on_callback_query(filters.regex("help_callback") & ~BANNED_USERS)
