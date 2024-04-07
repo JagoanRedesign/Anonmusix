@@ -1,151 +1,151 @@
-HELP_1 = """<b><u>ADMIN COMMANDS :</b></u>
+HELP_1 = """<b><u>ᴩᴇʀɪɴᴛᴀʜ ᴀᴅᴍɪɴ :</b></u> 
 
-JUST ADD <b>C</b> IN THE STARTING OF THE COMMANDS TO USE THEM FOR CHANNEL.
+ᴛᴀᴍʙᴀʜᴋᴀɴ saja <b>ᴄ</b> ᴅɪ ᴀᴡᴀʟ ᴩᴇʀɪɴᴛᴀʜ ᴜɴᴛᴜᴋ ᴍᴇɴɢɢᴜɴᴀᴋᴀɴɴʏᴀ ᴜɴᴛᴜᴋ ꜱᴀʟᴜʀᴀɴ. 
 
 
-/pauSe : PAUSE THE CURRENT PLAYING STREAM.
+➣ /pause : ᴊᴇᴅᴀ ꜱᴀᴀᴛ ɪɴɪ ᴩʟᴀʏɪɴɢ ꜱᴛʀᴇᴀᴍ. 
 
-/reSume : RESUME THE PAUSED STREAM.
+➣ /resume : ᴍᴇʟᴀɴᴊᴜᴛᴋᴀɴ ꜱᴛʀᴇᴀᴍ ʏᴀɴɢ ᴅɪᴊᴇᴅᴀ. 
 
-/Skip : SKIP THE CURRENT PLAYING STREAM AND START STREAMING THE NEXT TRACK IN QUEUE.
+➣ /skip : ʟᴇᴡᴀᴛᴋᴀɴ ꜱᴛʀᴇᴀᴍ ᴩʟᴀʏɪɴɢ ꜱᴀᴀᴛ ɪɴɪ ᴅᴀɴ ᴍᴜʟᴀɪ ꜱᴛʀᴇᴀᴍɪɴɢ ᴛʀᴀᴄᴋ ʙᴇʀɪᴋᴜᴛɴʏᴀ ᴅᴀʟᴀᴍ ᴀɴᴛʀɪᴀɴ. 
 
-/end OR /Stop : CLEARS THE QUEUE AND END THE CURRENT PLAYING STREAM.
+➣ /end ᴏʀ /stop : ᴍᴇɴɢʜᴀᴩᴜꜱ ᴀɴᴛʀɪᴀɴ ᴅᴀɴ ᴍᴇɴɢᴀᴋʜɪʀɪ ꜱᴛʀᴇᴀᴍ ᴩʟᴀʏɪɴɢ ꜱᴀᴀᴛ ɪɴɪ. 
 
-/player : GET A INTERACTIVE PLAYER PANEL.
+➣ /player : ᴅᴀᴩᴀᴛᴋᴀɴ ɪɴᴛᴇʀᴀᴋᴛɪғ ᴩʟᴀʏᴇʀ ᴩᴀɴᴇʟ. 
 
-/queue : SHOWS THE QUEUED TRACKS LIST.
-"""
+➣ /queue : ᴍᴇɴᴜɴᴊᴜᴋᴋᴀɴ ᴅᴀғᴛᴀʀ ᴛʀᴀᴄᴋꜱ ᴀɴᴛʀɪᴀɴ. 
+""" 
 
-HELP_2 = """
-<b><u>AUTH USERS :</b></u>
+HELP_2 = """ 
+<b><u>ᴩᴇɴɢɢᴜɴᴀ ᴀᴜᴛᴇɴᴛɪᴋᴀꜱɪ :</b></u> 
 
-AUTH USERS CAN USE ADMIN RIGHTS IN THE BOT WITHOUT ADMIN RIGHTS IN THE CHAT.
+ᴩᴇɴɢɢᴜɴᴀ ᴀᴜᴛᴇɴᴛɪᴋᴀꜱɪ ᴅᴀᴩᴀᴛ ᴍᴇɴɢɢᴜɴᴀᴋᴀɴ ʜᴀᴋ ᴀᴅᴍɪɴ ᴩᴀᴅᴀ ʙᴏᴛ ᴛᴀɴᴩᴀ ʜᴀᴋ ᴀᴅᴍɪɴ ᴩᴀᴅᴀ ᴛʜᴇ ᴄʜᴀᴛ. 
 
-/auth [USERNAME/USER_ID] : ADD A USER TO AUTH LIST OF THE BOT.
-/unauth [USERNAME/USER_ID] : REMOVE A AUTH USERS FROM THE AUTH USERS LIST.
-/authuSerS : SHOWS THE LIST OF AUTH USERS OF THE GROUP.
-"""
+➣ /auth [ᴜꜱᴇʀɴᴀᴍᴇ/ᴜꜱᴇʀ_ɪᴅ] : ᴍᴇɴᴀᴍʙᴀʜᴋᴀɴ ᴩᴇɴɢɢᴜɴᴀ ᴋᴇ ᴅᴀғᴛᴀʀ ᴀᴜᴛʜ ʙᴏᴛ. 
+➣ /unauth [ᴜꜱᴇʀɴᴀᴍᴇ/ᴜꜱᴇʀ_ɪᴅ] : ᴍᴇɴɢʜᴀᴩᴜꜱ ᴩᴇɴɢɢᴜɴᴀ ᴀᴜᴛʜ ᴅᴀʀɪ ᴅᴀғᴛᴀʀ ᴀᴜᴛʜ ᴜꜱᴇʀꜱ. 
+➣ /authusers : ᴍᴇɴᴜɴᴊᴜᴋᴋᴀɴ ᴅᴀғᴛᴀʀ ᴩᴇɴɢɢᴜɴᴀ ᴀᴜᴛʜ ᴅᴀʀɪ ʙᴏᴛ. ɢʀᴏᴜᴩ. 
+""" 
 
-HELP_3 = """
-<u><b>BROADCAST FEATURE</b></u> [ONLY FOR SUDOERS] :
+HELP_3 = """ 
+<u><b>ғɪᴛᴜʀ ʙʀᴏᴀᴅᴄᴀꜱᴛ</b></u> [ʜᴀɴʏᴀ ᴜɴᴛᴜᴋ ꜱᴜᴅᴏᴇʀꜱ] : 
 
-/broadcaSt [MESSAGE OR REPLY TO A MESSAGE] : BROADCAST A MESSAGE TO SERVED CHATS OF THE BOT.
+➣ /broadcast [ᴩᴇꜱᴀɴ ᴀᴛᴀᴜ ʙᴀᴡᴀꜱᴀɴ ᴩᴇꜱᴀɴ] : ꜱɪᴀʀᴀɴ ᴩᴇꜱᴀɴ ᴋᴇ ᴄʜᴀᴛ ʏᴀɴɢ ᴅɪʟᴀʏᴀɴɪ ʙᴏᴛ. 
 
-<u>BROADCASTING MODES :</u>
-<b>-pin</b> : PINS YOUR BROADCASTED MESSAGES IN SERVED CHATS.
-<b>-pinloud</b> : PINS YOUR BROADCASTED MESSAGE IN SERVED CHATS AND SEND NOTIFICATION TO THE MEMBERS.
-<b>-uSer</b> : BROADCASTS THE MESSAGE TO THE USERS WHO HAVE STARTED YOUR BOT.
-<b>-aSSiStant</b> : BROADCAST YOUR MESSAGE FROM THE ASSITANT ACCOUNT OF THE BOT.
-<b>-nobot</b> : FORCES THE BOT TO NOT BROADCAST THE MESSAGE..
+<u>ᴍᴏᴅᴇ ᴩᴇɴʏɪᴀʀᴀɴ :</u> 
+<b>-pin</b> : ᴩɪɴ ᴩᴇꜱᴀɴ ᴩᴇɴʏɪᴀʀᴀɴ ᴀɴᴅᴀ ᴅᴀʟᴀᴍ ᴄʜᴀᴛꜱ ʏᴀɴɢ ᴅɪᴛᴀᴡᴀʀᴋᴀɴ. 
+<b>-pinloud</b> : ᴩɪɴ ᴩᴇꜱᴀɴ ᴩᴇɴʏɪᴀʀᴀɴ ᴀɴᴅᴀ ᴅᴀʟᴀᴍ ᴄʜᴀᴛꜱ ʏᴀɴɢ ᴅɪʟᴀʏᴀɴɪ ᴅᴀɴ ᴋɪʀɪᴍ ᴩᴇᴍʙᴇʀɪᴛᴀʜᴜᴀɴ ᴋᴇᴩᴀᴅᴀ ᴀɴɢɢᴏᴛᴀ. 
+<b>-uꜱer</b> : ᴍᴇɴʏɪᴀʀᴋᴀɴ ᴩᴇꜱᴀɴ ᴋᴇᴩᴀᴅᴀ ᴩᴇɴɢɢᴜɴᴀ ʏᴀɴɢ ᴛᴇʟᴀʜ ᴍᴇᴍᴜʟᴀɪ ʙᴏᴛ ᴀɴᴅᴀ. 
+<b>-aꜱꜱiꜱtant</b> : ꜱɪᴀʀᴀɴ ᴩᴇꜱᴀɴ ᴀɴᴅᴀ ᴅᴀʀɪ ᴀᴋᴜɴ ᴀꜱɪꜱᴛᴀɴ ʙᴏᴛ. 
+<b>-nobot</b> : ᴍᴇᴍᴀᴋꜱᴀ ʙᴏᴛ ᴜɴᴛᴜᴋ ᴛɪᴅᴀᴋ ᴍᴇɴʏɪᴀʀᴀɴ ᴩᴇꜱᴀɴ.. 
 
-<b>EXAMPLE:</b> <code>/broadcaSt -uSer -aSSiStant -pin TESTING BROADCAST</code>
-"""
+<b>ᴄᴏɴᴛᴏʜ:</b> <code>/broadcaꜱt -uꜱer -aꜱꜱiꜱtant -pin ᴛᴇꜱᴛɪɴɢ ʙʀᴏᴀᴅᴄᴀꜱᴛ</code> 
+""" 
 
-HELP_4 = """<u><b>CHAT BLACKLIST FEATURE :</b></u> [ONLY FOR SUDOERS]
+HELP_4 = """<u><b>ғɪᴛᴜʀ ᴅᴀғᴛᴀʀ ʜɪᴛᴀᴍ ᴄʜᴀᴛ :</b></u> [ʜᴀɴʏᴀ ᴜɴᴛᴜᴋ ꜱᴜᴅᴏᴇʀꜱ] 
 
-RESTRICT SHIT CHATS TO USE OUR PRECIOUS BOT.
+ᴍᴇᴍʙᴀᴛᴀꜱɪ ᴄʜᴀᴛꜱ ꜱɪᴀʟᴀɴ ᴜɴᴛᴜᴋ ᴍᴇɴɢɢᴜɴᴀᴋᴀɴ ʙᴏᴛ ᴋᴀᴍɪ ʏᴀɴɢ ʙᴇʀʜᴀʀɢᴀ. 
 
-/blackliStchat [CHAT ID] : BLACKLIST A CHAT FROM USING THE BOT.
-/whiteliStchat [CHAT ID] : WHITELIST THE BLACKLISTED CHAT.
-/blackliStedchat : SHOWS THE LIST OF BLACKLISTED CHATS.
-"""
+➣ /blacklistchat [ᴄʜᴀᴛ ɪᴅ] : ᴅᴀғᴛᴀʀ ʜɪᴛᴀᴍ ᴄʜᴀᴛ ᴅᴀʀɪ ᴩᴇɴɢɢᴜɴᴀᴀɴ ʙᴏᴛ. 
+➣ /whitelistchat [ɪᴅ ᴄʜᴀᴛ] : ᴅᴀғᴛᴀʀ ᴩᴜᴛɪʜ ᴄʜᴀᴛ ʏᴀɴɢ ᴅɪʜɪᴛᴀᴍᴋᴀɴ. 
+➣ /blacklistedchat : ᴍᴇɴᴜɴᴊᴜᴋᴋᴀɴ ᴅᴀғᴛᴀʀ ᴄʜᴀᴛ ʏᴀɴɢ ᴅɪ ʙʟᴀᴄᴋʟɪꜱᴛ. 
+""" 
 
-HELP_5 = """
-<u><b>BLOCK USERS:</b></u> [ONLY FOR SUDOERS]
+HELP_5 = """ 
+<u><b>ʙʟᴏᴄᴋ ᴜꜱᴇʀꜱ:</b></u> [ʜᴀɴʏᴀ ᴜɴᴛᴜᴋ ꜱᴜᴅᴏᴇʀꜱ] 
 
-STARTS IGNORING THE BLACKLISTED USER, SO THAT HE CAN'T USE BOT COMMANDS.
+ᴍᴜʟᴀɪ ᴍᴇɴɢᴀʙᴀɪᴋᴀɴ ᴩᴇɴɢɢᴜɴᴀ ʏᴀɴɢ ᴅɪ ʙʟᴀᴄᴋʟɪꜱᴛ, ꜱᴇʜɪɴɢɢᴀ ᴅɪᴀ ᴛɪᴅᴀᴋ ʙɪꜱᴀ ᴍᴇɴɢɢᴜɴᴀᴋᴀɴ ᴩᴇʀɪɴᴛᴀʜ ʙᴏᴛ. 
 
-/block [USERNAME OR REPLY TO A USER] : BLOCK THE USER FROM OUR BOT.
-/unblock [USERNAME OR REPLY TO A USER] : UNBLOCKS THE BLOCKED USER.
-/blockeduSerS : SHOWS THE LIST OF BLOCKED USERS.
-"""
+➣ /block [ᴜꜱᴇʀɴᴀᴍᴇ ᴀᴛᴀᴜ ʀᴇᴩʟʏ ᴛᴏ ᴀ ᴜꜱᴇʀ] : ʙʟᴏᴋɪʀ ᴩᴇɴɢɢᴜɴᴀ ᴅᴀʀɪ ʙᴏᴛ ᴋᴀᴍɪ. 
+➣ /unblock [ᴜꜱᴇʀɴᴀᴍᴇ ᴀᴛᴀᴜ ʀᴇᴩʟʏ ᴛᴏ ᴀ ᴜꜱᴇʀ] : ᴍᴇᴍʙᴜᴋᴀ ʙʟᴏᴋɪʀ ᴩᴇɴɢɢᴜɴᴀ ʏᴀɴɢ ᴅɪʙʟᴏᴋɪʀ. 
+➣ /blockedusers : ᴍᴇɴᴜɴᴊᴜᴋᴋᴀɴ ᴅᴀғᴛᴀʀ ᴩᴇɴɢɢᴜɴᴀ ʏᴀɴɢ ᴅɪʙʟᴏᴋɪʀ. 
+""" 
 
-HELP_6 = """
-<u><b>CHANNEL PLAY COMMANDS:</b></u>
+HELP_6 = """ 
+<u><b>ᴩᴇʀɪɴᴛᴀʜ ᴩᴇᴍᴜᴛᴀʀᴀɴ ꜱᴀʟᴜʀᴀɴ:</b></u> 
 
-YOU CAN STREAM AUDIO/VIDEO IN CHANNEL.
+ᴀɴᴅᴀ ᴅᴀᴩᴀᴛ ꜱᴛʀᴇᴀᴍ ᴀᴜᴅɪᴏ/ᴠɪᴅᴇᴏ ᴅᴀʟᴀᴍ ꜱᴀʟᴜʀᴀɴ. 
 
-/cplay : STARTS STREAMING THE REQUESTED AUDIO TRACK ON CHANNEL'S VIDEOCHAT.
-/cvplay : STARTS STREAMING THE REQUESTED VIDEO TRACK ON CHANNEL'S VIDEOCHAT.
-/cplayforce or /cvplayforce : STOPS THE ONGOING STREAM AND STARTS STREAMING THE REQUESTED TRACK.
+➣ /cplay : ᴍᴜʟᴀɪ ꜱᴛʀᴇᴀᴍɪɴɢ ᴛʀᴀᴄᴋ ᴀᴜᴅɪᴏ ʏᴀɴɢ ᴅɪᴍɪɴᴛᴀ ᴩᴀᴅᴀ ᴠɪᴅᴇᴏᴄʜᴀᴛ ꜱᴀʟᴜʀᴀɴ. 
+➣ /cvplay : ᴍᴜʟᴀɪ ꜱᴛʀᴇᴀᴍɪɴɢ ᴛʀᴀᴄᴋ ᴠɪᴅᴇᴏ ʏᴀɴɢ ᴅɪᴍɪɴᴛᴀ ᴩᴀᴅᴀ ᴠɪᴅᴇᴏᴄʜᴀᴛ ᴄʜᴀɴɴᴇʟ. 
+➣ /cplayforce atau /cvplayforce : ᴍᴇɴɢʜᴇɴᴛɪᴋᴀɴ ꜱᴛʀᴇᴀᴍ ʏᴀɴɢ ʙᴇʀʟᴀɴɢꜱᴜɴɢ ᴅᴀɴ ᴍᴜʟᴀɪ ꜱᴛʀᴇᴀᴍɪɴɢ ᴛʀᴀᴄᴋ ʏᴀɴɢ ᴅɪᴍɪɴᴛᴀ.
 
-/channelplay [CHAT USERNAME OR ID] OR [DISABLE] : CONNECT CHANNEL TO A GROUP AND STARTS STREAMING TRACKS BY THE HELP OF COMMANDS SENT IN GROUP.
-"""
+➣ /channelplay [ɴᴀᴍᴀ ᴩᴇɴɢɢᴜɴᴀ ᴀᴛᴀᴜ ɪᴅ ᴄʜᴀᴛ] ᴀᴛᴀᴜ [ɴᴏɴᴀᴋᴛɪғᴋᴀɴ] : ʜᴜʙᴜɴɢᴋᴀɴ ꜱᴀʟᴜʀᴀɴ ᴋᴇ ɢʀᴜᴩ ᴅᴀɴ ᴍᴜʟᴀɪ ꜱᴛʀᴇᴀᴍɪɴɢ ᴛʀᴀᴄᴋ ᴅᴇɴɢᴀɴ ʙᴀɴᴛᴜᴀɴ ᴩᴇʀɪɴᴛᴀʜ ʏᴀɴɢ ᴅɪᴋɪʀɪᴍ ꜱᴇᴄᴀʀᴀ ɢʀᴜᴩ. 
+""" 
 
-HELP_7 = """
-<u><b>GLOBAL BAN FEATURE</b></u> [ONLY FOR SUDOERS] :
+HELP_7 = """ 
+<u><b>ғɪᴛᴜʀ ʟᴀʀᴀɴɢᴀɴ ɢʟᴏʙᴀʟ</b></u> [ʜᴀɴʏᴀ ᴜɴᴛᴜᴋ ꜱᴜᴅᴏᴇʀꜱ] : 
 
-/gban [USERNAME OR REPLY TO A USER] : GLOBALLY BANS THE CHUTIYA FROM ALL THE SERVED CHATS AND BLACKLIST HIM FROM USING THE BOT.
-/ungban [USERNAME OR REPLY TO A USER] : GLOBALLY UNBANS THE GLOBALLY BANNED USER.
-/gbanneduSerS : SHOWS THE LIST OF GLOBALLY BANNED USERS.
-"""
+➣ /gban [ᴜꜱᴇʀɴᴀᴍᴇ ᴀᴛᴀᴜ ʙᴀʟᴀꜱᴀɴ ᴋᴇᴩᴀᴅᴀ ᴩᴇɴɢɢᴜɴᴀ] : ꜱᴇᴄᴀʀᴀ ɢʟᴏʙᴀʟ ᴍᴇʟᴀʀᴀɴɢ ᴄʜᴜᴛɪʏᴀ ᴅᴀʀɪ ꜱᴇᴍᴜᴀ ʟᴀʏᴀɴᴀɴ ᴄʜᴀᴛ ᴅᴀɴ ʙʟᴀᴄᴋʟɪꜱᴛ ᴅɪᴀ ᴅᴀʀɪ ᴍᴇɴɢɢᴜɴᴀᴋᴀɴ ʙᴏᴛ. 
+➣ /ungban [ɴᴀᴍᴀ ᴩᴇɴɢɢᴜɴᴀ ᴀᴛᴀᴜ ʙᴀʟᴀꜱᴀɴ ᴋᴇᴩᴀᴅᴀ ᴩᴇɴɢɢᴜɴᴀ] : ꜱᴇᴄᴀʀᴀ ɢʟᴏʙᴀʟ ʙᴀᴛᴀʟᴋᴀɴ ᴩᴇʟᴀʀᴀɴɢᴀɴ ᴩᴇɴɢɢᴜɴᴀ ʏᴀɴɢ ᴅɪʟᴀʀᴀɴɢ ꜱᴇᴄᴀʀᴀ ɢʟᴏʙᴀʟ. 
+➣ /gbannedusers : ᴍᴇɴᴜɴᴊᴜᴋᴋᴀɴ ᴅᴀғᴛᴀʀ ᴩᴇɴɢɢᴜɴᴀ ʏᴀɴɢ ᴅɪʟᴀʀᴀɴɢ ꜱᴇᴄᴀʀᴀ ɢʟᴏʙᴀʟ. 
+""" 
 
-HELP_8 = """
-<b><u>LOOP STREAM :</b></u>
+HELP_8 = """ 
+<b><u>ʟᴏᴏᴩ ꜱᴛʀᴇᴀᴍ :</b></u> 
 
-<b>STARTS STREAMING THE ONGOING STREAM IN LOOP</b>
+<b>ᴍᴜʟᴀɪ ꜱᴛʀᴇᴀᴍɪɴɢ ꜱᴛʀᴇᴀᴍ ʏᴀɴɢ ʙᴇʀʟᴀɴɢꜱᴜɴɢ ᴅɪ ʟᴏᴏᴩ</b> 
 
-/loop [enable/diSable] : ENABLES/DISABLES LOOP FOR THE ONGOING STREAM
-/loop [1, 2, 3, ...] : ENABLES THE LOOP FOR THE GIVEN VALUE.
-"""
+➣ /loop [enable/diꜱable] : ᴇɴᴀʙʟᴇꜱ/ᴅɪꜱᴀʙʟᴇꜱ ʟᴏᴏᴩ ᴜɴᴛᴜᴋ ꜱᴛʀᴇᴀᴍ ʏᴀɴɢ ʙᴇʀʟᴀɴɢꜱᴜɴɢ 
+➣ /loop [1, 2, 3, ...] : ᴍᴇɴɢᴀᴋᴛɪғᴋᴀɴ ʟᴏᴏᴩ ᴜɴᴛᴜᴋ ɴɪʟᴀɪ ʏᴀɴɢ ᴅɪʙᴇʀɪᴋᴀɴ. 
+""" 
 
-HELP_9 = """
-<u><b>MAINTENANCE MODE</b></u> [ONLY FOR SUDOERS] :
+HELP_9 = """ 
+<u><b>ᴍᴏᴅᴇ ᴩᴇᴍᴇʟɪʜᴀʀᴀᴀɴ</b></u> [ʜᴀɴʏᴀ ᴜɴᴛᴜᴋ ꜱᴜᴅᴏᴇʀꜱ] : 
 
-/logS : GET LOGS OF THE BOT.
+➣ /logs : ᴅᴀᴩᴀᴛᴋᴀɴ ʟᴏɢ ʙᴏᴛ. 
 
-/logger [ENABLE/DISABLE] : BOT WILL START LOGGING THE ACTIVITIES HAPPEN ON BOT.
+➣ /logger [ᴇɴᴀʙʟᴇ/ᴅɪꜱᴀʙʟᴇ] : ʙᴏᴛ ᴀᴋᴀɴ ᴍᴜʟᴀɪ ᴍᴇɴᴄᴀᴛᴀᴛ ᴀᴋᴛɪᴠɪᴛᴀꜱ ʏᴀɴɢ ᴛᴇʀᴊᴀᴅɪ ᴩᴀᴅᴀ ʙᴏᴛ. 
 
-/maintenance [ENABLE/DISABLE] : ENABLE OR DISABLE THE MAINTENANCE MODE OF YOUR BOT.
-"""
+➣ /maintenance [ᴇɴᴀʙʟᴇ/ᴅɪꜱᴀʙʟᴇ] : ᴍᴇɴɢᴀᴋᴛɪғᴋᴀɴ ᴀᴛᴀᴜ ᴍᴇɴᴏɴᴀᴋᴛɪғᴋᴀɴ ᴍᴏᴅᴇ ᴩᴇᴍᴇʟɪʜᴀʀᴀᴀɴ ʙᴏᴛ ᴀɴᴅᴀ. 
+""" 
 
-HELP_10 = """
-<b><u>PING & STATS :</b></u>
+HELP_10 = """ 
+<b><u>ᴩɪɴɢ & ꜱᴛᴀᴛꜱ :</b></u> 
 
-/Start : STARTS THE MUSIC BOT.
-/help : GET HELP MENU WITH EXPLANATION OF COMMANDS.
+➣ /start : ᴍᴇᴍᴜʟᴀɪ ʙᴏᴛ ᴍᴜꜱɪᴋ. 
+➣ /help : ᴅᴀᴩᴀᴛᴋᴀɴ ᴍᴇɴᴜ ʙᴀɴᴛᴜᴀɴ ᴅᴇɴɢᴀɴ ᴩᴇɴᴊᴇʟᴀꜱᴀɴ ᴩᴇʀɪɴᴛᴀʜ. 
 
-/ping : SHOWS THE PING AND SYSTEM STATS OF THE BOT.
+➣ /ping : ᴍᴇɴᴜɴᴊᴜᴋᴋᴀɴ ꜱᴛᴀᴛɪꜱᴛɪᴋ ᴩɪɴɢ ᴅᴀɴ ꜱɪꜱᴛᴇᴍ ʙᴏᴛ. 
 
-/StatS : SHOWS THE OVERALL STATS OF THE BOT.
-"""
+➣ /stats : ᴍᴇɴᴜɴᴊᴜᴋᴋᴀɴ ꜱᴛᴀᴛɪꜱᴛɪᴋ ʙᴏᴛ ꜱᴇᴄᴀʀᴀ ᴋᴇꜱᴇʟᴜʀᴜʜᴀɴ. 
+""" 
 
-HELP_11 = """
-<u><b>PLAY COMMANDS :</b></u>
+HELP_11 = """ 
+<u><b>ᴩᴇʀɪɴᴛᴀʜ ᴩᴜᴛᴀʀ :</b></u> 
 
-<b>v :</b> STANDS FOR VIDEO PLAY.
-<b>force :</b> STANDS FOR FORCE PLAY.
+<b>v :</b> ʙᴇʀᴅɪʀɪ ᴜɴᴛᴜᴋ ᴍᴇᴍᴜᴛᴀʀ ᴠɪᴅᴇᴏ. 
+<b>force :</b> ʙᴇʀᴅɪʀɪ ᴜɴᴛᴜᴋ ғᴏʀᴄᴇ ᴩʟᴀʏ. 
 
-/play OR /vplay : STARTS STREAMING THE REQUESTED TRACK ON VIDEOCHAT.
+➣ /play ᴀᴛᴀᴜ /vplay : ᴍᴜʟᴀɪ ꜱᴛʀᴇᴀᴍɪɴɢ ᴛʀᴀᴄᴋ ʏᴀɴɢ ᴅɪᴍɪɴᴛᴀ ᴩᴀᴅᴀ ᴠɪᴅᴇᴏᴄʜᴀᴛ. 
 
-/playforce OR /vplayforce : STOPS THE ONGOING STREAM AND STARTS STREAMING THE REQUESTED TRACK.
-"""
+➣ /playforce ᴀᴛᴀᴜ /vplayforce : ᴍᴇɴɢʜᴇɴᴛɪᴋᴀɴ ꜱᴛʀᴇᴀᴍ ʏᴀɴɢ ʙᴇʀʟᴀɴɢꜱᴜɴɢ ᴅᴀɴ ᴍᴜʟᴀɪ ꜱᴛʀᴇᴀᴍɪɴɢ ᴛʀᴀᴄᴋ ʏᴀɴɢ ᴅɪᴍɪɴᴛᴀ. 
+""" 
 
-HELP_12 = """
-<b><u>SHUFFLE ǪUEUE :</b></u>
+HELP_12 = """ 
+<b><u>ᴍᴇɴɢᴀᴄᴀᴋ ᴀɴᴛʀɪᴀɴ :</b></u> 
 
-/Shuffle : SHUFFLE'S THE ǪUEUE.
-/queue : SHOWS THE SHUFFLED ǪUEUE.
-"""
+➣ /shuffle : ᴍᴇɴɢᴀᴄᴀᴋ ᴀɴᴛʀɪᴀɴ.
+➣ /queue : ᴍᴇɴᴜɴᴊᴜᴋᴋᴀɴ ᴀɴᴛʀɪᴀɴ ʏᴀɴɢ ᴅɪᴀcak. 
+""" 
 
-HELP_13 = """
-<b><u>SEEK STREAM :</b></u>
+HELP_13 = """ 
+<b><u>ᴄᴀʀɪ ꜱᴛʀᴇᴀᴍ :</b></u> 
 
-/Seek [DURATION IN SECONDS] : SEEK THE STREAM TO THE GIVEN DURATION.
-/Seekback [DURATION IN SECONDS] : BACKWARD SEEK THE STREAM TO THE THE GIVEN DURATION.
-"""
+➣ /seek [ᴅᴜʀᴀꜱɪ ᴅᴀʟᴀᴍ ᴅᴇᴛɪᴋ] : ᴄᴀʀɪ ꜱᴛʀᴇᴀᴍ ᴩᴀᴅᴀ ᴅᴜʀᴀꜱɪ ʏᴀɴɢ ᴅɪʙᴇʀɪᴋᴀɴ. 
+➣ /seekback [ᴅᴜʀᴀꜱɪ ᴅᴀʟᴀᴍ ᴅᴇᴛɪᴋ] : ᴍundur ᴍᴇɴᴄᴀʀɪ ꜱᴛʀᴇᴀᴍ ᴋᴇ ᴅᴜʀᴀꜱɪ ʏᴀɴɢ ᴅɪʙᴇʀɪᴋᴀɴ. 
+""" 
 
-HELP_14 = """
-<b><u>SONG DOWNLOAD</b></u>
+HELP_14 = """ 
+<b><u>ᴜɴᴅᴜʜ ʟᴀɢᴜ</b></u> 
 
-/Song [SONG NAME/YT URL] : DOWNLOAD ANY TRACK FROM YOUTUBE IN MP3 OR MP4 FORMATS.
-"""
+➣ /song [ɴᴀᴍᴀ ʟᴀɢᴜ/ᴜʀʟ ʏᴛ] : ᴜɴᴅᴜʜ ᴛʀᴀᴄᴋ ᴀᴩᴀᴩᴜɴ ᴅᴀʀɪ ʏᴏᴜᴛᴜʙᴇ ᴅᴀʟᴀᴍ ғᴏʀᴍᴀᴛ ᴍᴩ3 ᴀᴛᴀᴜ ᴍᴩ4.
+""" 
 
-HELP_15 = """
-<b><u>SPEED COMMANDS :</b></u>
+HELP_15 = """ 
+<b><u>ᴩᴇʀɪɴᴛᴀʜ ᴋᴇᴄᴇᴩᴀᴛᴀɴ :</b></u> 
 
-YOU CAN CONTROL THE PLAYBACK SPEED OF THE ONGOING STREAM. [ADMINS ONLY]
+ᴀɴᴅᴀ ᴅᴀᴩᴀᴛ ᴍᴇɴɢᴏɴᴛʀᴏʟ ᴋᴇᴄᴇᴩᴀᴛᴀɴ ᴩᴇᴍᴜᴛᴀʀᴀɴ ᴅᴀʀɪ ꜱᴛʀᴇᴀᴍ ʏᴀɴɢ ʙᴇʀʟᴀɴɢꜱᴜɴɢ. [ᴋʜᴜꜱᴜꜱ ᴀᴅᴍɪɴ] 
 
-/Speed or /playback : FOR ADJUSTING THE AUDIO PLAYBACK SPEED IN GROUP.
-/cSpeed or /cplayback : FOR ADJUSTING THE AUDIO PLAYBACK SPEED IN CHANNEL.
+➣ /speed atau /playback : ᴜɴᴛᴜᴋ ᴍᴇɴʏᴇꜱᴜᴀɪᴋᴀɴ ᴋᴇᴄᴇᴩᴀᴛᴀɴ ᴩᴇᴍᴜᴛᴀʀᴀɴ ᴀᴜᴅɪᴏ ᴅɪ ɢʀᴜᴩ. 
+➣ /cspeed ​​atau /cplayback : ᴜɴᴛᴜᴋ ᴍᴇɴʏᴇꜱᴜᴀɪᴋᴀɴ ᴋᴇᴄᴇᴩᴀᴛᴀɴ ᴩᴇᴍᴜᴛᴀʀᴀɴ ᴀᴜᴅɪᴏ ᴅᴀʟᴀᴍ ꜱᴀʟᴜʀᴀɴ. 
 """
